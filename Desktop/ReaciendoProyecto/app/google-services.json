@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "872737809248",
+    "firebase_url": "https://bienesraices-b644e.firebaseio.com",
+    "project_id": "bienesraices-b644e",
+    "storage_bucket": "bienesraices-b644e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872737809248:android:686c4ef52bab4d3e",
+        "android_client_info": {
+          "package_name": "com.orlandogareca.bienesraices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872737809248-ku7obr188dbb4nvmbn99a164hbtj2427.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.orlandogareca.bienesraices",
+            "certificate_hash": "360a8f8c76788318bdf8cac90d35c62f3f94aa1a"
+          }
+        },
+        {
+          "client_id": "872737809248-duiuqu5b7eeije3l7abl0mat3ru1lon4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEJAZUZ4yaZxIQ5N7dN4jKgs1X8i3z0Oo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872737809248-duiuqu5b7eeije3l7abl0mat3ru1lon4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

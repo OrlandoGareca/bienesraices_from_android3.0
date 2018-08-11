@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fondo_pantalla_inicio"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/photoImagenView"
+            android:background="@color/colorAccent"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="8dp"/>
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/idTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    <Button
+        android:text="cerrar sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="logOut"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FFFFFF"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="revoke"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FFFFFF"
+        android:text="remover"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:onClick="entrar"
+        android:text="ingresar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_blue_dark"/>
+
+
+
+</LinearLayout>

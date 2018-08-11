@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/accion1"
+        android:title="Mas Recientes"/>
+
+    <item
+        android:id="@+id/accion2"
+        android:title="Menor Precio"/>
+
+    <item
+        android:id="@+id/accion3"
+        android:title="Mayor Precio"/>
+</menu>

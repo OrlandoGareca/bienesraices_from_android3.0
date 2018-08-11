@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BienesRaices</string>
+    <string name="revoke">revoke</string>
+    <string name="Log_Out">Log_Out</string>
+    <string name="logout">logout</string>
+    <string name="not_close_session">no cerrar session</string>
+    <string name="not_revoke">no remover</string>
+    <string name="not_log_in">no iniciar sesion</string>
+    <string name="title_activity_mi_ubicacion">Map</string>
+    <string name="title_activity_ingreso_agentes">Sign in</string>
+    <string name="title_activity_contenedor_mi_ubicacion">contenedor_mi_ubicacion</string>
+    <string name="title_activity_mapas">Map</string>
+
+
+</resources>

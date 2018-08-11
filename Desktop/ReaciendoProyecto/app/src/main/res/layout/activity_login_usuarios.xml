@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo_pantalla_inicio"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.orlandogareca.bienesraices.Login_usuarios">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20px"
+        android:id="@+id/imageView3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:id="@+id/linearLayout4"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageView3">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/signInButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/open_signup"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="18dp"
+                android:text="Guardar" />
+
+            <TextView
+                android:id="@+id/open_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:onClick="ejecutar_reguistro"
+                android:text="reguistrarse"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:background="@android:color/holo_blue_dark"/>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_above="@+id/signInButton"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="62dp"
+                android:background="@android:color/holo_blue_dark"
+                android:onClick="login"
+                android:padding="5dp"
+                android:shadowColor="#FFFFFF"
+                android:shadowDy="45"
+                android:text="iniciar sesion"
+
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/contraseña"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_above="@+id/login"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="26dp"
+                android:background="@android:color/white"
+                android:hint="contraseña"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/usuario"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/white"
+                android:hint="usuario"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:paddingTop="12dp"
+                android:textColor="@color/colorAccent"
+                android:layout_above="@+id/contraseña"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignTop="@+id/linearLayout4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+</RelativeLayout>

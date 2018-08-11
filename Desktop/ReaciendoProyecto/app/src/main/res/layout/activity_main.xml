@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_pantalla_inicio"
+    tools:context="com.orlandogareca.bienesraices.MainActivity">
+
+
+    <Button
+        android:id="@+id/button_ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="101dp"
+        android:layout_marginRight="101dp"
+        android:layout_marginBottom="78dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="INGRESAR"
+        android:textColor="@android:color/background_light"
+        android:textSize="19sp"
+        android:onClick="ejecutar_ingresar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/id_encuentra_tu_proximo_hogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_ingresar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:text="Encuentra tu proximo hogar"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_encuentra_tu_proximo_hogar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="BIENES Y RAICES"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/icono_inicio" />
+</RelativeLayout>

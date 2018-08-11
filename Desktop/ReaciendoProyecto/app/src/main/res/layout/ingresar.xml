@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_pantalla_inicio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/id_que_esta_buscando"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout9">
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_below="@+id/id_que_tipo_de_propiedad_te_interesa"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/white" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/id_que_esta_buscando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="¿INGRESE ?"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout10">
+
+        <Button
+            android:id="@+id/id_button_alquilar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignEnd="@+id/id_text_reguistrar_inmuebles"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/boton_redondo"
+            android:onClick="ejecutar_pagina_principal" />
+
+        <Button
+            android:id="@+id/id_button_condominios"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignBaseline="@+id/id_button_alquilar"
+            android:layout_alignBottom="@+id/id_button_alquilar"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/id_text_reguistrar_inmuebles"
+            android:background="@drawable/boton_redondo"
+            android:onClick="login_agentes" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/linearLayout10"
+      >
+        <TextView
+            android:id="@+id/id_text_usuarios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="42dp"
+
+            android:text="Clientes"
+            android:textColor="@android:color/background_light"
+            />
+        <TextView
+        android:id="@+id/id_text_condominio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+
+        android:text="Vendedores"
+        android:textColor="@android:color/background_light"
+        />
+
+    </LinearLayout>
+</RelativeLayout>

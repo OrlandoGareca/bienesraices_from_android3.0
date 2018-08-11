@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff8000"
+    android:orientation="vertical"
+    android:gravity=""
+    tools:context="com.orlandogareca.bienesraices.opciones_de_agentes">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="15dp"
+        android:text="Selecciones la opcion a realizar"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/id_que_tipo_de_propiedad_te_interesa"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"/>
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/button5"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="reguistrar_nuevo"
+        android:text="Reguistrar nuevo"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="colegio_nuevo"
+        android:text="registrar colegios" />
+
+    <Button
+        android:id="@+id/id_salir"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_gravity="center"
+        android:text="Salir"
+        android:onClick="ejecutar_salir"
+        android:background="@android:color/holo_blue_dark"/>
+
+</LinearLayout>

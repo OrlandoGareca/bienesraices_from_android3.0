@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/casa"
+        android:title="Casa"/>
+
+    <item
+        android:id="@+id/departamento"
+        android:title="Departamento"/>
+
+    <item
+        android:id="@+id/condominio"
+        android:title="Condominio"/>
+</menu>
